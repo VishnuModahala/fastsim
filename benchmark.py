@@ -1,6 +1,6 @@
 import sum_metrics
 import sys
-import numpy as np
+#import numpy as np
 import random
 
 print("How big should the test array be?")

@@ -5,7 +5,7 @@ import time
 lib = ctypes.CDLL("./libsum.so")
 
 lib.sum_array.argtypes = [ctypes.POINTER(ctypes.c_int), ctypes.c_int]
-lib.sum_array.restype = ctypes.c_long
+lib.sum_array.restype = ctypes.c_int64
 
 
 # Purely Python summing implementation
